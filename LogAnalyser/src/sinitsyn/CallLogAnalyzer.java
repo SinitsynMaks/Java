@@ -26,6 +26,8 @@ public class CallLogAnalyzer {
         return resultStatistic;
     }
 
+    public Hashtable<Integer, CallLogRecord> getInfoFromhashtableID() {return  hashtableID;}
+
 
     public void readLog(String fileName) throws IOException // Основной метод класса
     {

@@ -30,5 +30,8 @@ public class Main {
                     methodStat.getMaxTimeCall(), methodStat.getAvg(),
                     methodStat.getMaxId(), methodStat.getCount()));
         }
+
+        System.out.println("Count of incomplete methods:");
+        System.out.println(callLogAnalyzer.getInfoFromhashtableID().size());
     }
 }
